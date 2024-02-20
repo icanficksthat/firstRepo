@@ -157,5 +157,5 @@ If the program were to attempt a mathematical problem that would result in an im
 number or an undefined number I could avoid this buy putting in a try/except clause. In the
 case of an imaginary number I could put in the exception that if the number is a square root 
 of a negative number to print "The number cannot be negative." or in the case of a divide by
-0 to print "The denominator cannot equal 0."
+0 to print "The denominator cannot equal 0.."
 ''')
