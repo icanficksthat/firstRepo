@@ -17,26 +17,26 @@ savior Jesus Christ and now.
 
 # a. Create a tuple containing the days of the week (Monday, Tuesday, Wednesday, etc.). Print the tuple.
 
-days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
-print(days)
+daysTuple = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+print(daysTuple)
 
 # b. Access and print the third element of the tuple.
 
-print(days[2])
+print(daysTuple[2])
 
 # c. Convert the tuple to a list. Print the list.
 
-daysList = list(days)
+daysList = list(daysTuple)
 print(daysList)
 
 # d. Check if "Sunday" is in the tuple. Print True or False accordingly.
 
-if "Sunday" in days:
+if "Sunday" in daysTuple:
     print("True")
 else:
     print("False")
 
 # e. Find the index of "Thursday" in the tuple. Print the index.
     
-thursdaysPos = days.index("Thursday")
+thursdaysPos = daysTuple.index("Thursday")
 print(thursdaysPos)
